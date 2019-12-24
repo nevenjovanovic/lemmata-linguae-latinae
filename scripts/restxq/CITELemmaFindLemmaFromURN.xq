@@ -1,9 +1,9 @@
 (: CroALa Lemma list :)
-(: search for a lemma in our CITE collection :)
+(: for a URN, retrieve lemma in our CITE collection :)
 import module namespace rest = "http://exquery.org/ns/restxq";
-import module namespace croala = "http://croala.ffzg.unizg.hr" at "../../repo/croala2.xqm";
-import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios2.xqm";
-import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../../repo/croalacite2.xqm';
+import module namespace croala2 = "http://croala.ffzg.unizg.hr" at "../../repo/croala2.xqm";
+import module namespace cp2 = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios2.xqm";
+import module namespace cite2 = "http://croala.ffzg.unizg.hr/cite" at '../../repo/croalacite2.xqm';
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
@@ -33,7 +33,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ cp:htmlheadserver($title, $content, $keywords) }
+{ cp2:htmlheadserver($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
@@ -47,21 +47,20 @@ declare
 <p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut copiam indiculi CITE URN accipias.</p>
 </div>
 <div class="col-md-6">
-{croala:infodb('lemlatlem')}
+{croala2:infodb('lemlatlem')}
 </div>
 </div>
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
 
-{ cite:queryname($urn) }
+{ cite2:queryname($urn) }
 
 </blockquote>
      <p/>
      </div>
 <hr/>
-{ cp:footerserver() }
-<script type="text/javascript" src="/basex/static/dist/js/clipboard2.js"></script>
+{ cp2:footerserver() }
 </body>
 </html>
 };
