@@ -206,14 +206,14 @@ caption-side: top;
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../../gfx/dalmatia.jpg);
+    background-image: url(../../gfx/ms-bkg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: maroon;
 }
 .footer {
     margin-bottom: 0px;
-    background-image: url(../../gfx/dalmatia-mini.jpg);
+    background-image: url(../../gfx/ms-bkg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: maroon;
