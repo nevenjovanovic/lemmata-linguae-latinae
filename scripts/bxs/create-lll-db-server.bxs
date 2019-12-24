@@ -1,3 +1,6 @@
-SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-CREATE DB lll-lemlat "/home/croala/lemmata-linguae-latinae/csv/lemmario.xml"
+SET INTPARSE 1
+SET FTINDEX 1
+SET UPDINDEX 1
+SET AUTOOPTIMIZE 1
+CREATE DB lll-lemlat "/home/croala/lemmata-linguae-latinae/xml/lemmario.xml"
 CREATE BACKUP lll-lemlat
