@@ -1,9 +1,9 @@
 (: CroALa Lemma list :)
 (: search for a lemma in our CITE collection :)
 import module namespace rest = "http://exquery.org/ns/restxq";
-import module namespace croala = "http://croala.ffzg.unizg.hr" at "../../repo/croala.xqm";
-import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios.xqm";
-import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../../repo/croalacite.xqm';
+import module namespace croala = "http://croala.ffzg.unizg.hr" at "../../repo/croala2.xqm";
+import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios2.xqm";
+import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../../repo/croalacite2.xqm';
 
 declare namespace page = 'http://basex.org/examples/web-page';
 

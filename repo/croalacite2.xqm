@@ -1,6 +1,6 @@
 module namespace cite = "http://croala.ffzg.unizg.hr/cite";
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
-import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at "croalapelagios.xqm";
+import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at "croalapelagios2.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
 (: helper function for header, with meta :)
