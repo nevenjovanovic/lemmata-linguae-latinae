@@ -47,14 +47,14 @@ declare
 <p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut copiam indiculi CITE URN accipias.</p>
 </div>
 <div class="col-md-6">
-{croala2:infodb('lemlatlem')}
+{croala2:infodb('lll-lemlat')}
 </div>
 </div>
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
 
-{ cite2:queryname($urn) }
+{ cite2:queryname2($urn) }
 
 </blockquote>
      <p/>

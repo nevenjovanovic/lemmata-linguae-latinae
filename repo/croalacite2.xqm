@@ -110,6 +110,37 @@ return element tr {
 else element table { cp:deest() }
 };
 
+declare function cite:queryname2 ($urn) {
+  let $dbs := collection("lll-lemlat")
+  let $list := $dbs//record[urn=$urn]
+  return if ($list) then
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element thead {
+      element tr {
+        element th { "URN"},
+        element th { "Descriptio"}
+      }
+    },
+    element tbody {
+ element tr {
+  element td { 
+    element tr {
+  element td { 
+    element span { $urn }
+    },
+  element td { 
+  for $l in $list/*
+  return element span {  
+  attribute class {"urn-row"} , $l }
+   }
+}
+}}
+}
+}
+else element table { cp:deest() }
+};
+
 declare function cite:input-field($id, $r){
   element input { 
       attribute size { "45"},
