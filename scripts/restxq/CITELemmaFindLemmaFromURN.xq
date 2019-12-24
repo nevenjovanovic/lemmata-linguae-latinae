@@ -37,14 +37,13 @@ declare
 <body text="#000000">
 
 <div class="jumbotron">
-<h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
+<h1><span class="glyphicon glyphicon-th glyphicon-fw" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p><a href="http://croala.ffzg.unizg.hr">CroALa</a> lemmata, { current-date() }.</p>
+<p>Linguae Latinae lemmata, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a>.</p>
 <p>Lemma identificatur ope indiculi CITE URN.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
-<p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut copiam indiculi CITE URN accipias.</p>
 </div>
 <div class="col-md-6">
 {croala2:infodb('lll-lemlat')}

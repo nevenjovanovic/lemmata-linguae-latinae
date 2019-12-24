@@ -69,10 +69,10 @@ declare function cp:htmlheadserver($title, $content, $keywords) {
 <meta name="keywords" content="{ $keywords }"/>
 <meta name="description" content="{$content}"/>
 <meta name="revised" content="{ current-date()}"/>
-<meta name="author" content="Neven Jovanović, CroALa / Pelagios" />
+<meta name="author" content="Neven Jovanović, CroALa" />
 <link rel="icon" href="/basex/static/gfx/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/cp.css"/>
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/cp3.css"/>
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/font-awesome-4.7.0/css/font-awesome.min.css"/>
 </head>
 
