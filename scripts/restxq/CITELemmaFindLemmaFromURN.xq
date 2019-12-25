@@ -7,8 +7,8 @@ import module namespace cite2 = "http://croala.ffzg.unizg.hr/cite" at '../../rep
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Lemma in CroALa';
-declare variable $content := "Latin lemma identified by a CITE URN.";
+declare variable $title := 'Lemma vocabuli Latini';
+declare variable $content := "Lemma Latinum CITE URN titulo descriptum. Latin lemma identified by a CITE URN.";
 declare variable $keywords := "Latin language, Latin literature, CTS / CITE architecture, linguistic analysis, literary analysis, scholarly edition, lemma, lexicon, lexical analysis, vocabulary, dictionary";
 
 (:~
@@ -37,7 +37,7 @@ declare
 <body text="#000000">
 
 <div class="jumbotron">
-<h1><span class="glyphicon glyphicon-th glyphicon-fw" aria-hidden="true"></span>{ $title }</h1>
+<h1><span class="fa fa-th fa-fw" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
 <p>Linguae Latinae lemmata, { current-date() }.</p>

@@ -82,16 +82,15 @@ declare function cp:htmlheadserver($title, $content, $keywords) {
 declare function cp:footerserver () {
 let $f := <footer class="footer">
 <div class="container">
-<h1 class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa</a></h1>
+<h1 class="text-center"><span class="fa fa-leaf fa-fw" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa</a></h1>
 <div class="row"> 
-<div  class="col-md-6">
-<h3 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h3> 
+<div  class="col">
+<h3 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h3> </div>
+<div  class="col">
 <p class="text-center"><i class="fa fa-github fa-lg fa-fw"></i>
             <span class="network-name">Github</span>: <a href="https://github.com/nevenjovanovic/lemmata-linguae-latinae">/lemmata-linguae-latinae</a></p>
 </div>
-
-<div  class="col-md-6">
-<p class="text-center"></p></div></div>
+</div>
 </div>
 </footer>
 return $f
